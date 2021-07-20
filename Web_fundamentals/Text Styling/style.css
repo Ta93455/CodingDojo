@@ -16,7 +16,6 @@
 .Cloud {
     color: aqua;
     font-size: 70px;
-    margin-left: -3px;
 }
 
 #CompletedProjects {
@@ -36,9 +35,8 @@ div.CP h3 {
     color: white;
     font-family: Arial;
     font-style: italic;
-    font-weight: 200;
+    font weight: 200;
     font-size: 40px;
-    padding: -30px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
