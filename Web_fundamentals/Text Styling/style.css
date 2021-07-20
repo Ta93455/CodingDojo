@@ -1,0 +1,55 @@
+#MyCloud {
+    background-color: black;
+    text-align: left;
+    padding: 5px;
+    font-family: Impact;
+    margin-top: 20px;
+    /* text-align: left; */
+}
+
+.My {
+    color: white;
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.Cloud {
+    color: aqua;
+    font-size: 70px;
+    margin-left: -3px;
+}
+
+#CompletedProjects {
+    text-align: center;
+    border: 35px;
+    margin-top: 10px;
+}
+
+.CP {
+    background-color: rebeccapurple;
+    padding: 5px;
+    margin-top: 10px;
+    background-size: 10px 10px;
+}
+
+div.CP h3 {
+    color: white;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 40px;
+    padding: -30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#contactus {
+    text-align: right;
+    padding: 5px;
+    background-color: rgb(174, 225, 245);
+    margin-top: 10px;
+}
+
+.CUS {
+    font-size: 27px;
+}
