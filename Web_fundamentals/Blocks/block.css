@@ -28,16 +28,15 @@
 }
 
 .main {
-    display: inline-block;
-    position: fixed;
+    /* display: inline-block; */
     height: 580px;
     width: 896px;
-    margin: 0px;
-    margin-left: 23px;
+    margin: 2px;
+    margin-left: 310px;
+    margin-top: 0px;
+    margin-bottom: 40px;
     padding: 13px 27px 13px 13px;
     background-color: red;
-    top: 280px;
-    left: 464px;
 }
 
 .sub-content {
@@ -51,7 +50,6 @@
 }
 
 #advertisement {
-    position: fixed;
     padding-left: 3px;
     margin-right: 248px;
     margin-top: 30px;
