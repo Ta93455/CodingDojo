@@ -1,4 +1,5 @@
 .container {
+    /* display: inline-block; */
     width: 1280px;
     height: 870px;
     background-color: silver;
@@ -16,7 +17,6 @@
 
 .side-nav {
     display: absolute;
-    postion: fixed;
     left: 250px;
     margin-left: 25px;
     margin-right: 25px;
@@ -28,13 +28,9 @@
 }
 
 .main {
-    /* display: inline-block; */
     height: 580px;
     width: 896px;
-    margin: 2px;
-    margin-left: 310px;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-left: 319px;
     padding: 13px 27px 13px 13px;
     background-color: red;
 }
