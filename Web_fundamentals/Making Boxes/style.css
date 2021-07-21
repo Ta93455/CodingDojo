@@ -1,0 +1,45 @@
+body {
+    margin: 40px;
+    padding: 20px;
+    background-color: 00000;
+}
+
+.container {}
+
+.button {
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(24, 117, 86);
+    font-family: Arial;
+    font-weight: 400;
+    border: 2px solid aquamarine;
+    letter-spacing: 10px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.Plus {
+    border: 1px solid turquoise;
+    background-color: turquoise;
+    color: white;
+    font-size: 16px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 100%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.CA {
+    Border: 2px solid black;
+    background-color: rgb(3, 121, 218);
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 250px;
+    border-radius: 0px;
+    margin: 10px;
+    box-shadow: 10px 3px 5px 2px rgb(0, 27, 25);
+}
