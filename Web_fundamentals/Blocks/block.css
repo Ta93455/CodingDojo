@@ -1,0 +1,65 @@
+.container {
+    width: 1280px;
+    height: 870px;
+    background-color: silver;
+    margin: 40px auto;
+}
+
+.top-nav {
+    display: inline-block;
+    height: 120px;
+    width: 1160px;
+    background-color: green;
+    margin: 25px 25px 25px 25px;
+    padding: 35px 35px 35px;
+}
+
+.side-nav {
+    display: absolute;
+    postion: fixed;
+    left: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 50px 50px 50px 50px;
+    margin-top: -2px;
+    height: 310px;
+    width: 170px;
+    background-color: blue;
+}
+
+.main {
+    display: inline-block;
+    position: fixed;
+    height: 580px;
+    width: 896px;
+    margin: 0px;
+    margin-left: 23px;
+    padding: 13px 27px 13px 13px;
+    background-color: red;
+    top: 280px;
+    left: 464px;
+}
+
+.sub-content {
+    display: inline-block;
+    margin: 8px;
+    padding-right: 10px;
+    height: 260px;
+    width: 260px;
+    background-color: yellow;
+    vertical-align: top;
+}
+
+#advertisement {
+    position: fixed;
+    padding-left: 3px;
+    margin-right: 248px;
+    margin-top: 30px;
+    right: 14px;
+    height: 180px;
+    width: 850px;
+    background-color: purple;
+}
+
+
+/* dont forget to use height, as well as the vertical-align */
