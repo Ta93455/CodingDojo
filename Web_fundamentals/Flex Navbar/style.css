@@ -1,0 +1,65 @@
+    body {
+        margin: 0px auto;
+        width: 600px;
+        height: auto;
+        padding: 0px;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: rgb(63, 62, 62);
+        margin: 0px auto;
+        height: 40px;
+    }
+    
+    .nav-title {
+        font-family: Marker Felt, fantasy;
+        font-size: 25px;
+        color: white;
+        margin: 3px 28px 15px 10px;
+    }
+    
+    .nav-links {
+        color: transparent;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 12px;
+        margin-left: 175px;
+        padding: 0px;
+    }
+    
+    h1 {}
+    
+    ul {}
+    
+    li {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        margin: 1px;
+        margin-left: 15px;
+    }
+    
+    a {
+        margin-left: 5px;
+        font-family: Marker Felt, fantasy;
+        text-decoration: none;
+        color: rgb(207, 207, 207)
+    }
+    
+    .btn {
+        border: 1.5px solid black;
+        background-color: #17A2B8;
+        box-shadow: 1px 1.1px 1px .25px black;
+        color: white;
+        font-size: 8px;
+        text-align: ;
+        height: 15px;
+        width: 50px;
+        padding: 0px 3px;
+        margin: 0px 0px 0px 6px;
+    }
+    
+    .active {
+        color: white;
+    }
