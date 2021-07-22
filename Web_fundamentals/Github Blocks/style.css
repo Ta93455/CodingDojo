@@ -1,0 +1,62 @@
+    body {
+        background: beige;
+        height: 500px;
+        width: 454px;
+        margin: auto;
+    }
+    
+    .container {
+        background-color: whitesmoke;
+        text-align: center;
+        border: 2px solid black;
+        margin: auto;
+        padding: 0px;
+    }
+    
+    img {
+        /* border: 1px solid black; */
+        margin: 10px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
+    .bluebox {
+        background: rgb(85, 170, 219);
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 400px;
+        margin: 25px;
+        /* border: 1px solid black; */
+    }
+    
+    .maroonbox {
+        background: rgba(224, 96, 139, 0.733);
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 400px;
+        margin: 25px;
+        /* border: 1px solid black; */
+    }
+    
+    .whitebox {
+        background: bisque;
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 400px;
+        margin: 25px;
+        /* border: 1px solid black; */
+    }
+    
+    footer {
+        font-family: Times;
+        font-size: 5px;
+        word-spacing: 1px;
+        color: rgb(129, 213, 228);
+    }
+    
+    a {
+        color: rgb(129, 213, 228);
+    }
