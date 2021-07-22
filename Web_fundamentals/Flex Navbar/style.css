@@ -1,12 +1,14 @@
     body {
         margin: 0px auto;
-        width: 600px;
+        width: 100%;
         height: auto;
         padding: 0px;
     }
     
     .nav {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         background-color: rgb(63, 62, 62);
         margin: 0px auto;
         height: 40px;
@@ -16,14 +18,15 @@
         font-family: Marker Felt, fantasy;
         font-size: 25px;
         color: white;
-        margin: 3px 28px 15px 10px;
+        margin: 10px;
     }
     
     .nav-links {
-        color: transparent;
         display: flex;
+        justify-content: space-between;
+        color: transparent;
         font-size: 12px;
-        margin-left: 175px;
+        margin: 12px;
         padding: 0px;
     }
     
@@ -32,6 +35,9 @@
     ul {}
     
     li {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
         margin: 1px;
         margin-left: 15px;
     }
