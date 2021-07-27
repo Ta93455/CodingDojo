@@ -1,0 +1,403 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 100%;
+}
+
+body {
+    height: auto;
+    background: blanchedalmond
+}
+
+.boxr1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 50px;
+}
+
+.profile {
+    border: 2px solid rgb(211, 211, 211);
+    background-color: whitesmoke;
+    width: 890px;
+    height: 645px;
+}
+
+.pfbg {
+    width: 830px;
+    height: 150px;
+    padding: 30px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 117deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 67, 1) 44%, rgba(0, 212, 255, 1) 100%);
+}
+
+.pfimg {
+    position: relative;
+    left: 70px;
+    bottom: 635px;
+}
+
+.pfimg img {
+    background: red;
+    border: 3px solid red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.pfdesc {
+    display: flex;
+    flex-direction: column;
+    margin: 27px 0px 0px 40px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.pfdesc p {
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    font-size: 45px;
+}
+
+.pfdesc img {
+    width: 50px;
+    height: 50px;
+}
+
+.pfdesc h2,
+.pfdesc a,
+.pfdesc h3 {
+    margin: 25px 0px 40px 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.reqf {
+    border: 2px solid rgb(211, 211, 211);
+    background-color: whitesmoke;
+    width: 350px;
+    height: 240px;
+    margin: 0px 0px 405px 50px;
+}
+
+.rfbg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 350px;
+    background: gray;
+    font-size: 14px;
+}
+
+.rfbg span {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    font-size: 35px;
+}
+
+.reqfp {
+    display: flex;
+}
+
+.reqfp ul {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 350px;
+    list-style-type: none;
+    margin-left: 25px;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.reqfp img {
+    border: 2px solid black;
+    background: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0.3px;
+    vertical-align: middle;
+}
+
+.yorn {
+    float: right;
+}
+
+.yorn img {
+    height: 35px;
+    width: 35px;
+    margin: 4px 10px 10px 3px;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.boxr2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 0px auto;
+}
+
+.education {
+    border: 2px solid rgb(211, 211, 211);
+    background-color: whitesmoke;
+    width: 890px;
+    height: 361px;
+    margin-bottom: 453px;
+}
+
+.edbg {
+    width: 890px;
+    height: 90px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.edbg h1 {
+    font-family: arial;
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+.eddesc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: arial;
+    font-size: 19px;
+    margin: 0px 0px 0px 25px;
+    height: 170px;
+}
+
+.eddesc p {
+    color: gray;
+}
+
+.friends {
+    position: relative;
+    bottom: 351px;
+    border: 2px solid rgb(211, 211, 211);
+    background-color: whitesmoke;
+    width: 350px;
+    height: 750px;
+    margin: 0px 0px 139px 51px;
+}
+
+.frbg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 100px;
+    background-color: gray;
+    font-size: 15px;
+}
+
+.frbg span {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(233, 233, 233);
+    border-radius: 50%;
+    width: 93px;
+    height: 42px;
+    font-size: 35px;
+}
+
+.flist {
+    display: flex;
+}
+
+.flist ul {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 360px;
+    list-style-type: none;
+    margin-left: 25px;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.flist img {
+    border: 2px solid black;
+    background: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 0.7px;
+    vertical-align: middle;
+    margin: 15px 10px 0px 0px;
+}
+
+.Vm {
+    border: 4px solid rgb(211, 211, 211);
+    width: 315px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    font-family: times;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: black;
+    color: black;
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    padding: 20px;
+}
+
+.nav-title {
+    font-family: Marker Felt, fantasy;
+    font-size: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    margin-right: 470px;
+    padding: 0px;
+}
+
+.nav-links li {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin: 1px;
+    margin-left: 30px;
+}
+
+.nav-links a {
+    margin-top: 11px;
+    font-family: Marker Felt, fantasy;
+    text-decoration: none;
+    color: rgb(202, 202, 202)
+}
+
+#btn {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: #17A2B8;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    height: 55px;
+    width: 130px;
+    padding: 0px 3px;
+    margin: 0px 0px 0px 6px;
+    cursor: pointer;
+}
+
+#active {
+    color: rgb(255, 255, 255);
+}
