@@ -145,6 +145,8 @@ body {
     height: 130px;
 }
 
+.def2 input {}
+
 .def2 h5 {
     float: right;
     font-size: 12px;
