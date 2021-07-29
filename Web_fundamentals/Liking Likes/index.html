@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Network</h1>
+    </div>
+    <div class="header">Your Feed</div>
+    <div class="bigbox">
+        <div class="boxr1">
+            <img src="./imgs/user.png" alt="blank profile picture" id="ProfilePic">
+            <button type="button" class="addav" onclick="change(this)"><u>Add an Avatar</u></button>
+            <h3>Tommy Ta</h3>
+        </div>
+        <div class="likesbox">
+            <div class="p1">
+                <h1>Neil M</h1>
+                <input type="text" id="lcount" value="0">
+                <input type="button" id="lbtn" onclick="cUp()" value="Like">
+                <p>I just set up this new discord bot, let me know what you all think.
+                    <a href="#">link</a></p>
+                </p>
+            </div>
+            <div class="p2">
+                <h1>Nichole K</h1>
+                <input type="text" id="lcount2" value="0">
+                <input type="button" id="lbtn2" onclick="cUp2()" value="Like">
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </p>
+            </div>
+            <div class="p3">
+                <h1>Jim R</h1>
+                <input type="text" id="lcount3" value="0">
+                <input type="button" id="lbtn3" onclick="cUp3()" value="Like">
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
