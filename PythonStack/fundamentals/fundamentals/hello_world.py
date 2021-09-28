@@ -14,7 +14,7 @@ print("hello" + name)	# with a +	-- this one should give us an error!
 
 num = 13
 print("Hello", num,"!")
-print("Hello "+num+"!")
+print("Hello "+ num +"!") 
 print("Hello "+str(num)+"!")
 # 4. print "I love to eat sushi and pizza." with the foods in variables
 fave_food1 = "sushi"
