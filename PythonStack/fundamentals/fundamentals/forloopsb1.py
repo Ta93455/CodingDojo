@@ -1,11 +1,11 @@
 for x in range(151):
     print(x)
 #########################################################
-for x in range(0,1001,5):
+for x in range(5,1001,5):
     print(x)
 #########################################################
 for x in range(1,101):
-    if x % 5 == 0 and x % 10 == 0:
+    if x % 10 == 0:
         print("Coding-Dojo")
         continue
     elif x % 5 == 0:
@@ -32,10 +32,13 @@ start = 2018
 while start > 0:
     print(start)
     start -= 4
+    
+for x in range(2018, 0, -4):
+    print(x)
 #########################################################
 lowNumber = 2
 highNumber = 20
-mult = 3
+mult = 2
 
 for x in range(lowNumber, highNumber):
     if x%mult == 0:
