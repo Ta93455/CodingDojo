@@ -23,6 +23,8 @@ class User:
         User2.account.balance += amount
         return self
 
+    # def dodmg(self, name, attack_power, ability_power, speed, health)
+    #     self.
 
 class BankAccount:
     bank = "Coding Bank"
@@ -69,8 +71,6 @@ saving = BankAccount("Savings")
 
 # checking.deposit(100).deposit(100).deposit(100).withdraw(200).yield_interest().display_account_info()
 # saving.deposit(1000).deposit(1000).withdraw(200).withdraw(200).withdraw(200).withdraw(200).yield_interest().display_account_info()
-
-
 
 
 
